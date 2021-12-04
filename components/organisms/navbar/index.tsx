@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Menu from "./menu";
+import Menu from "./Menu";
 export default function Navbar() {
     return (
         <section>
@@ -15,7 +15,7 @@ export default function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ms-auto text-lg gap-lg-0 gap-2">
                         <Menu title = "Home" active/>
-                        <Menu title = "Games"/>
+                        <Menu title = "Games" />
                         <Menu title = "Reward"/>
                         <Menu title = "Discover"/>
                         <Menu title = "Global Rank"/>
