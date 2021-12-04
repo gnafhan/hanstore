@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { useEffect } from 'react'
 import styles from '../styles/Home.module.css'
 import AOS from 'aos'
-import Navbar from '../components/organisms/navbar'
+import Navbar from '../components/organisms/Navbar'
 
 const Home: NextPage = () => {
     useEffect(() => {
