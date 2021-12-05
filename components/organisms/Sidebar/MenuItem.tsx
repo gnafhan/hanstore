@@ -3,15 +3,18 @@ import cx from "classnames"
 interface MenuItemProps{
     title: string;
     icon: string;
+    active?: boolean;
 }
-export default function MenuItem(props: MenuItemProps) {
-    const {title, icon} = props;
+export default function MenuItem(props: Partial<MenuItemProps>) {
+    const {title, icon, active} = props;
 
     const classTitle = cx({
-        "item" : true
-    });
+        "item" : true,
+        'mb-30' : true,
+        active,
+        });
     return (
-        <div className="item active mb-30">
+        <div className={classTitle}>
             <div className="me-3">
                    <Image src={`/icon/${icon}.svg`} width = {25} height = {25}/>
             </div>

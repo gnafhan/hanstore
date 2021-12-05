@@ -7,7 +7,7 @@ export default function Sidebar() {
         <div className="content pt-50 pb-30 ps-30">
            <Profile/>
             <div className="menus">
-                <MenuItem title="Overview" icon="icon-menu-overview"/>
+                <MenuItem title="Overview" icon="icon-menu-overview" active/>
                 <MenuItem title="Transaction" icon="icon-menu-transaction"/>
                 <MenuItem title="Messages" icon="icon-menu-messages"/>
                 <MenuItem title="Card" icon="icon-menu-cards"/>
