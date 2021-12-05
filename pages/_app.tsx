@@ -14,6 +14,7 @@ import '../styles/overview.css'
 import '../styles/transactions.css'
 import '../styles/transactions-detail.css'
 import '../styles/navbar-log-in.css'
+import '../styles/sidebar.css'
 
 
 import type { AppProps } from 'next/app'
