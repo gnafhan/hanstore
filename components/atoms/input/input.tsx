@@ -1,4 +1,4 @@
-interface InputProps{
+export interface InputProps{
     title: string;
 
 }
